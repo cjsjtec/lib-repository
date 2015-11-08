@@ -1,0 +1,22 @@
+{
+    "name": "Lab123/Repository",
+    "description": "Pacote v1",
+    "keywords": ["Repository","brazil","laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FaseObra",
+            "email": "cjsj.tec@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "faseobra/repository": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lab123\\Repositories": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
